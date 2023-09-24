@@ -8,7 +8,7 @@ import { Porftolio } from './components/Porftolio/Porftolio';
 interface Props {
   className?: string;
 }
-export const App: FC<Props> = memo(function App(props = {}) {
+export const App: FC<Props> = memo(function App() {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <Porftolio />
