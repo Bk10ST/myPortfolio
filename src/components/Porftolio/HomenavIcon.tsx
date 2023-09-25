@@ -2,7 +2,7 @@ import { memo, SVGProps } from 'react';
 
 const HomenavIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg preserveAspectRatio='none' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
-    <circle cx={23.5} cy={23.5} r={23.5} fill='#1E1E1E' />
+    <circle cx={23.5} cy={23.5} r={23.5} fill='#fcb500' />
     <path
       fillRule='evenodd'
       clipRule='evenodd'

@@ -99,6 +99,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .intro {
   position: absolute;
@@ -130,6 +131,7 @@
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
+ 
 }
 .rEACTFRONTENDDEVELOPERFIGMADEV {
   color: #fff;
@@ -159,6 +161,7 @@
   height: 134px;
   text-align: justify;
   flex-direction: column;
+
 }
 .aboutbtn {
   position: absolute;
@@ -1760,4 +1763,102 @@ height: 210px;
   font-size: 30px;
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
+}
+
+
+/* tablet */
+@media  (max-width: 834px){
+  
+  .photo421 {
+    position: absolute;
+    left: 14px;
+    top: 60px;
+    width: 165px;
+    height: 310px;
+    border-radius: 14px;
+    background-image:/* webpackIgnore: true */ url('/assets/photo421.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .root {
+    position: relative;
+    width: 834px;
+    height: 4300px;
+    align-items: flex-start;
+    background-color: #000;
+    overflow: hidden;
+  }
+
+  .iMSANDESHBK {
+    color: #fcb500;
+    font-size: 35px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 0;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+   
+  }
+
+  .rectangle2 {
+    transform-origin: top left;
+    position: absolute;
+    left: -20px;
+    top: 31px;
+    width: 42px;
+    height: 6px;
+    background-color: #fcb500;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  
+
+  .rectangle1 {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 190px;
+    height: 242px;
+    overflow: visible;
+  }
+
+
+   .rEACTFRONTENDDEVELOPERFIGMADEV {
+    color: #fff;
+    font-size: 19px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: -70px;
+    top: 61px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .iMAPassionateReactFrontendDeve {
+    color: #fff;
+    font-size: 14px;
+    line-height: 261.5227%;
+    font-weight: 500;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.015em;
+    position: absolute;
+    left: -90px;
+    top: 102px;
+    width: 500px;
+    height: 134px;
+    text-align: justify;
+    flex-direction: column;
+  
+  } 
+  
+
 }

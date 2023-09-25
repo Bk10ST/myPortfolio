@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { memo, useEffect, useState } from "react";
 import type { FC } from "react";
 
 import resets from "../_resets.module.css";
@@ -77,14 +77,14 @@ const Varients = {
     opacity: 1,
   },
 };
-const Naver = {
-  shift: {
-    marginLeft: "2000px",
-  },
-  unshift: {
-    marginLeft: "1275px",
-  },
-};
+// const Naver = {
+//   shift: {
+//     marginLeft: "2000px",
+//   },
+//   unshift: {
+//     marginLeft: "1275px",
+//   },
+// };
 
 const AboutButton = {
   abouthidden: {
@@ -101,14 +101,26 @@ interface Props {
 /* @figmaId 1:2 */
 export const Porftolio: FC<Props> = memo(function Porftolio() {
 
-  
+  const [isTab, setIsTab]= useState<boolean>(false);
+
+  useEffect(()=>{
+    if(window.innerWidth < 834){
+      setIsTab(true);
+    }
+  })
+
+
 
   return (
     <div  className={`${resets.storybrainResets} ${classes.root}`}>
+      <div className={classes.home1}></div>
       <motion.div
-        variants={Naver}
-        initial="shift"
-        animate="unshift"
+        initial={{
+          marginLeft: "2000px"
+        }}
+        animate={{
+          marginLeft:  isTab ? "30px" : "1275px" 
+        }}
         transition={{ duration: 1.5 }}
         className={classes.navbar1}
       >
@@ -133,6 +145,11 @@ export const Porftolio: FC<Props> = memo(function Porftolio() {
         </motion.div>
       </a>
       </motion.div>
+
+
+
+
+
       <motion.div className={classes.portfolio} id="profile" >
         <motion.div className={classes.rectangle1}>
           <Rectangle1Icon className={classes.icon5} />
@@ -174,10 +191,10 @@ export const Porftolio: FC<Props> = memo(function Porftolio() {
         transition={{ duration: 1.9 }}
         className={classes.iMAPassionateReactFrontendDeve}
       >
-        I&#39;m a passionate React frontend developer and UI/UX designer
-        proficient in Figma, eager to apply my skills and learn from
-        experienced professionals. I believe in user-centered design to
-        enhance digital experiences and writing clean code . Joining your team
+        I&#39;m a passionate React frontend developer and UI/UX designer 
+        proficient in Figma, eager to apply my skills and learn from 
+        experienced professionals. I believe in user-centered design  to
+        enhance digital experiences and writing clean code .Joining your team
         as an intern would be a fantastic opportunity to contribute and grow.
       </motion.div>
 
@@ -201,6 +218,7 @@ export const Porftolio: FC<Props> = memo(function Porftolio() {
           <Arrow1Icon className={classes.icon7} />
         </div>
       </motion.div>
+
       <div className={classes.sectionB} id="sectionB">
         <div className={classes.pORTFOLIO}>PORTFOLIO</div>
         <motion.div
@@ -624,6 +642,13 @@ initial={{opacity: 0}}
 
        
       </div>
+
+
+
+
+
+
+
     </div>
   );
 });
