@@ -1767,7 +1767,7 @@ height: 210px;
 
 
 /* tablet */
-@media  (max-width: 834px){
+@media  (max-width: 1321px){
   
   .photo421 {
     position: absolute;
@@ -1786,7 +1786,7 @@ height: 210px;
   .root {
     position: relative;
     width: 834px;
-    height: 4300px;
+    height: 4000px;
     align-items: flex-start;
     background-color: #000;
     overflow: hidden;
@@ -1931,7 +1931,7 @@ height: 210px;
   /* skill */
   .icons {
     position: absolute;
-    left: 40px;
+    left: 90px;
     top: 258px;
     width: 825px;
     height: 1111px;
@@ -2670,4 +2670,343 @@ height: 210px;
     white-space: nowrap;
     flex-direction: column;
   }
+
+  .frame10 {
+    position: absolute;
+    left: 12px;
+    top: 163px;
+    width: 91px;
+    height: 140px;
+    align-items: flex-start;
+  }
+
+  .deviconFigma {
+    position: relative;
+    left: 0;
+    margin-right: 30px;
+    bottom: 170px;
+    width: 122px;
+    height: 128px;
+  }
+  .icon26 {
+    width: 70%;
+    height: 70%;
+  }
+
+  .figma {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 8px;
+    top: -20px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .htmlSkill6 {
+    position: absolute;
+    left: 0;
+    top: 19px;
+    width: 91px;
+    height: 87px;
+    align-items: flex-start;
+  }
+  .ellipse66 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 81px;
+    height: 77px;
+    overflow: visible;
+  }
+  .icon27 {
+    width: 100%;
+    height: 100%;
+  }
+  .ellipse76 {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 63px;
+    height: 58px;
+    overflow: visible;
+  }
+  .icon28 {
+    width: 100%;
+    height: 100%;
+  }
+  ._1004 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 16px;
+    top: 22px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  /* design section */
+  .starshipIllustration1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 834px;
+    height: 590px;
+    background-image:/* webpackIgnore: true */ url('/assets/starshipIllustration1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .frame9 {
+    position: absolute;
+    left: 2px;
+    top: 2909px;
+    width: 1364px;
+    height: 590px;
+    align-items: flex-start;
+    background-color: #9DFFFF;
+    overflow: hidden;
+  }
+  .rEACTFROTNENDDEVELOPER {
+    position: absolute;
+    left: 25px;
+    top: 95px;
+    width: 545px;
+    height: 335px;
+    flex-direction: column;
+  }
+  .textBlocker {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .textBlock2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .textBlock3 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .andUIUXDESIGNER {
+    position: absolute;
+    left: 33px;
+    top: 390px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .textBlock4 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+  .textBlock5 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  /*contact*/
+  .frame8 {
+    position: absolute;
+    left: 4px;
+    top: 3300px;
+    width: 1362px;
+    height: 776px;
+    align-items: flex-start;
+  }
+
+  .contact {
+    position: absolute;
+    left: 0;
+    top: 32px;
+    width: 1916px;
+    height: 776.0413px;
+    align-items: flex-start;
+  }
+
+  .rectangle5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1356px;
+    height: 740px;
+    background-color: #070707;
+  }
+
+  .contact2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 40x;
+    top: 224px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .rEACTFRONTENDDEVELOPERFIGMADESs {
+    color: #fff;
+    font-size: 18px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 63px;
+    top: 360px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .textBlock {
+    color: #fcb500;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+  }
+
+  .sANDESHBK {
+    position: absolute;
+    left: 178px;
+    top: 310px;
+    width: 197px;
+    height: 34px;
+    flex-direction: column;
+  }
+
+  .line4 {
+    transform-origin: bottom left;
+    position: absolute;
+    left: 500px;
+    top: 84px;
+    width: 593.0076px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    outline: solid 3px #fcb500;
+    transform: matrix(0.0051, 1, -1, 0.0051, 0, 0);
+  }
+
+  .phone {
+    position: absolute;
+    left: 734px;
+    top: 466px;
+    width: 265px;
+    height: 49.041px;
+    align-items: flex-start;
+  }
+  ._9808005497 {
+    color: #fff;
+    font-size: 20px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: -140px;
+    top: 22px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .biPhone {
+    position: absolute;
+    left: -190px;
+    top: 22px;
+    width: 28px;
+    height: 30px;
+  }
+  .icon42 {
+    width: 100%;
+    height: 100%;
+  }
+  .mail {
+    position: absolute;
+    left: 530px;
+    top: 260px;
+    width: 448px;
+    height: 43.0413px;
+    overflow: visible;
+  }
+  .icon43 {
+    width: 100%;
+    height: 100%;
+  }
+  .bk10sandeshGmailCom {
+    color: #fff;
+    font-size: 20px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 595px;
+    top: 273px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .instagram {
+    position: absolute;
+    left: 530px;
+    top: 371px;
+    width: 265px;
+    height: 50px;
+    align-items: flex-start;
+  }
+  .sandeshstbk {
+    color: #fff;
+    font-size: 20px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 67px;
+    top: 9px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .teenyiconsInstagramSolid {
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    width: 27px;
+    height: 30px;
+  }
+  .icon44 {
+    width: 100%;
+    height: 100%;
+  }
+  
 }
