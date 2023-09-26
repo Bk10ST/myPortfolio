@@ -1,4 +1,4 @@
-import { memo, useEffect, useState } from "react";
+import { memo } from "react";
 import type { FC } from "react";
 
 import resets from "../_resets.module.css";
@@ -55,7 +55,7 @@ import { SkillIconsReduxIcon } from "./SkillIconsReduxIcon.tsx";
 import { SkillIconsTypescriptIcon } from "./SkillIconsTypescriptIcon.tsx";
 import { TeenyiconsInstagramSolidIcon } from "./TeenyiconsInstagramSolidIcon.tsx";
 import { VectorIcon } from "./VectorIcon.tsx";
-import { motion } from "framer-motion";
+import { motion, spring } from "framer-motion";
 
 
 
@@ -138,6 +138,49 @@ export const Porftolio: FC<Props> = memo(function Porftolio() {
         </motion.div>
       </a>
       </motion.div>
+
+      {/* tablet */}
+
+      <motion.div
+      initial={{
+        marginTop: "-20px",
+      }}
+animate={{
+  marginTop: "10px"
+}}
+transition={{
+  duration: 1.2,
+  type: "spring",
+}}
+
+        className={classes.navbar4}
+      >
+        <a href="#frame8">
+        <motion.div className={classes.chattingNav}>
+          <ChattingnavIcon className={classes.icon} />
+        </motion.div>
+        </a>
+       
+<a href="#frame9">
+<motion.div className={classes.bussinessNav}>
+          <BussinessnavIcon className={classes.icon2} />
+        </motion.div>
+</a>
+
+      <a href="#profile">
+      <motion.div className={classes.homenav}>
+          <HomenavIcon className={classes.icon3} />
+        </motion.div>
+
+      </a>
+        
+      <a href="#sectionB">
+      <motion.div className={classes.profileNav}>
+          <ProfilenavIcon className={classes.icon4} />
+        </motion.div>
+      </a>
+      </motion.div>
+
 
 
 
