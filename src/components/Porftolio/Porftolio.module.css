@@ -8,7 +8,6 @@
 }
 .navbar1 {
   position: absolute;
-  /* left: 1275px; */
   top: 159px;
   width: 47px;
   height: 298px;
@@ -51,9 +50,7 @@
   height: 100%;
 }
 
-/* .homenav:active {
-  background-color: orange;
-} */
+
 
 
 .profileNav {
@@ -166,7 +163,6 @@
 .aboutbtn {
   position: absolute;
   left: 360px;
-  /* top: 450px; */
   width: 210px;
   height: 42px;
   align-items: flex-start;
@@ -251,7 +247,6 @@
 }
 .aBOUTME {
   position: absolute;
-  /* left: 550px; */
   top: 30px;
   width: 219px;
   height: 104px;
@@ -3014,42 +3009,22 @@ height: 210px;
   }
 
   .navbar1 {
-    /* position: absolute;
-    left: 1275px;
-    top: 159px;
-    width: 47px;
-    height: 298px;
-    align-items: flex-start; */
+    
     display: none;
   }
  
   .navbar2 {
-    /* position: absolute;
-    left: 1279px;
-    top: 450px;
-    width: 47px;
-    height: 298px;
-    align-items: flex-start; */
+    
     display: none;
   }
 
   .navbar1 {
-    /* position: absolute;
-    left: 1275px;
-    top: 159px;
-    width: 47px;
-    height: 298px;
-    align-items: flex-start; */
+    
     display: none;
   }
 
   .navbar3 {
-    /* position: absolute;
-    left: 1275px;
-    top: 251px;
-    width: 47px;
-    height: 298px;
-    align-items: flex-start; */
+  
     display: none;
   }
 
