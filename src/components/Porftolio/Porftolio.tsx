@@ -101,14 +101,7 @@ interface Props {
 /* @figmaId 1:2 */
 export const Porftolio: FC<Props> = memo(function Porftolio() {
 
-  const [isTab, setIsTab]= useState<boolean>(false);
-
-  useEffect(()=>{
-    if(window.innerWidth < 834){
-      setIsTab(true);
-    }
-  })
-
+  
 
 
   return (
@@ -119,7 +112,7 @@ export const Porftolio: FC<Props> = memo(function Porftolio() {
           marginLeft: "2000px"
         }}
         animate={{
-          marginLeft:  isTab ? "30px" : "1275px" 
+          marginLeft:  "1275px" 
         }}
         transition={{ duration: 1.5 }}
         className={classes.navbar1}
