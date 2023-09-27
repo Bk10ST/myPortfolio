@@ -55,7 +55,7 @@ import { SkillIconsReduxIcon } from "./SkillIconsReduxIcon.tsx";
 import { SkillIconsTypescriptIcon } from "./SkillIconsTypescriptIcon.tsx";
 import { TeenyiconsInstagramSolidIcon } from "./TeenyiconsInstagramSolidIcon.tsx";
 import { VectorIcon } from "./VectorIcon.tsx";
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 
@@ -704,7 +704,7 @@ initial={{opacity: 0}}
         <motion.div className={classes.textBlock5}>UI / UX DESIGNER </motion.div>
       </motion.div>
 
-      
+
 
 
        
