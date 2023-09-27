@@ -190,6 +190,7 @@ transition={{
         <motion.div className={classes.rectangle1}>
           <Rectangle1Icon className={classes.icon5} />
         </motion.div>
+       
         <motion.div
           variants={Varients}
           initial="photoInitial"
@@ -197,6 +198,8 @@ transition={{
           transition={{ duration: 1.9, type: "spring" }}
           className={classes.photo421}
         ></motion.div>
+
+
       </motion.div>
       <div className={classes.intro}>
         <div className={classes.rectangle2}></div>
@@ -271,6 +274,32 @@ transition={{
             <span className={classes.label2}>ME</span>
           </motion.p>
         </motion.div>
+
+
+{/* Mobile */}
+
+<motion.div
+        initial={{marginLeft: "-200px"}}
+        animate={{
+          marginLeft: "100px"
+        }}
+        transition={{
+          duration : 1.3 ,
+        }}
+        className={classes.aBOUTMEM}>
+          <motion.p className={classes.labelWrapperM}>
+            <span className={classes.labelM}>ABOUT </span>
+            <span className={classes.label2M}>ME</span>
+          </motion.p>
+        </motion.div>
+
+
+
+
+
+
+
+
        
 <motion.div 
 initial={{opacity: 0}}
@@ -675,9 +704,13 @@ initial={{opacity: 0}}
         <motion.div className={classes.textBlock5}>UI / UX DESIGNER </motion.div>
       </motion.div>
 
+      
+
 
        
       </div>
+
+      
 
 
 
