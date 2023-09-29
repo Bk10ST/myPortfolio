@@ -690,7 +690,7 @@ initial={{opacity: 0}}
       }}
       className={classes.rEACTFROTNENDDEVELOPER}>
         <motion.div className={classes.textBlocker}>REACT </motion.div>
-        <motion.div className={classes.textBlock2}>FROTNEND</motion.div>
+        <motion.div className={classes.textBlock2}>FRONTEND</motion.div>
         <motion.div className={classes.textBlock3}>DEVELOPER</motion.div>
       </motion.div>
       <motion.div
